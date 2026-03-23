@@ -28,8 +28,3 @@ Below is a visual representation of the trade-off between sensitivity and precis
     * **XGBoost** is superior if the bank's priority is maximum security, accepting a higher manual verification rate (40 false alarms) to catch more fraudsters.
 * **Data Science Approach:** This project demonstrates that a "perfect" model depends on business goals—balancing the cost of fraud against the cost of false positives.
 
-## 🚀 How to Run
-1. Clone the repository.
-2. Download `creditcard.csv` from Kaggle and place it in the root folder.
-3. Install dependencies: `pip install pandas scikit-learn xgboost`
-4. Run the comparison script: `python fraud_detection_comparison.py`
